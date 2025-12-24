@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>n57n41m | Cyber Security Expert</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #020617;
+      --bg-card: #0f172a;
+      --primary: #38bdf8;
+      --secondary: #818cf8;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #020617, #000000);
+      color: var(--text-main);
+      line-height: 1.7;
+    }
+
+    /* HERO */
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #020617, #020617 60%, #020617);
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header span {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    header p {
+      max-width: 820px;
+      font-size: 1.05rem;
+      color: var(--text-muted);
+    }
+
+    .cta {
+      margin-top: 30px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 12px 28px;
+      margin: 5px;
+      border-radius: 30px;
+      font-weight: 600;
+      color: #020617;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cta a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(56,189,248,0.4);
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+
+    section h2::after {
+      content: "";
+      position: absolute;
+      width: 60%;
+      height: 3px;
+      left: 0;
+      bottom: -10px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    .card p, .card li {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    /* MOTIVATION */
+    .motivation {
+      background: linear-gradient(135deg, #020617, #020617);
+      border-left: 5px solid var(--primary);
+      padding: 40px;
+      border-radius: 16px;
+      font-style: italic;
+      color: #c7d2fe;
+    }
+
+    /* CONTACT */
+    .contact {
+      background: var(--bg-card);
+      padding: 40px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      color: var(--text-muted);
+      background: #000000;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>n57n41m</h1>
+  <span>Cyber Security Expert</span>
+  <p>
+    I’m a cybersecurity professional from Bangladesh specializing in social media security,
+    ethical hacking, and online investigations. I help individuals and businesses recover
+    accounts, protect digital identities, and stay safe in the cyber world.
+  </p>
+  <div class="cta">
+    <a href="#services">My Services</a>
+    <a href="#contact">Contact Me</a>
+  </div>
+</header>
+
+<section id="services">
+  <h2>Professional Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Facebook Recovery</h3><p>Account recovery, protection, and 2FA issues handled professionally.</p></div>
+    <div class="card"><h3>Cyberbullying Help</h3><p>Defamation removal, impersonation reporting, and digital safety.</p></div>
+    <div class="card"><h3>Website Security</h3><p>Security audits, vulnerability assessment, and protection.</p></div>
+    <div class="card"><h3>Scam Detection</h3><p>Phishing, fraud, and online scam investigation services.</p></div>
+    <div class="card"><h3>Ethical Hacking</h3><p>Penetration testing to strengthen your systems.</p></div>
+    <div class="card"><h3>Privacy Consulting</h3><p>Data protection and digital privacy solutions.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Facebook Problem Solutions (বাংলা)</h2>
+  <div class="card">
+    <ul>
+      <li>ফেসবুক টু-ফ্যাক্টর সমস্যা সমাধান</li>
+      <li>লক ও হ্যাক আইডি রিকোভারি</li>
+      <li>সাসপেন্ড ও ডিজেবল আইডি সমাধান</li>
+      <li>ফেইক আইডি ও পেইজ রিকোভারি</li>
+      <li>কমিউনিটি স্ট্যান্ডার্ড সমস্যা</li>
+      <li>পার্মানেন্ট ডিজেবল কনসাল্টেশন</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Cyber World Motivation</h2>
+  <div class="motivation">
+    <p>
+      “In the digital age, cybersecurity is not just a skill — it is a responsibility.
+      We don’t hack to destroy; we hack to defend. Knowledge is power, and protection is duty.”
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact">
+    <p>📧 Email: <a href="mailto:n57n41m@gmail.com">n57n41m@gmail.com</a></p>
+    <p>💬 WhatsApp Business: <a href="https://www.whatsapp.com/business/" target="_blank">Get the App</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2025 n57n41m | Cyber Security Expert | All rights reserved.
+</footer>
+
+</body>
+</html>
